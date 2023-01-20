@@ -867,11 +867,11 @@ ul.footer-grid-list li span{
 /*-- banner1 --*/
 .banner1{
 	background: url(../images/bannerArm.png) no-repeat 0px 0px;
-    background-size: auto auto;
-    -webkit-background-size: auto auto;
-    -moz-background-size: auto auto;
-    -o-background-size: auto auto;
-    -ms-background-size: auto auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
     min-height: 380px;
     padding: 6em 0 0;
     text-align: center;
