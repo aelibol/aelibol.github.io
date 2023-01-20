@@ -867,7 +867,7 @@ ul.footer-grid-list li span{
 /*-- banner1 --*/
 .banner1{
 	background: url(../images/bannerArm.png) no-repeat 0px 0px;
-    background-size: cover;
+    background-size: 100% auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
