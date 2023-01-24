@@ -51,6 +51,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	});
 </script>
+   <style type="text/css">
+      body{
+      background-color: #1B1464;
+      font-family: "Nunito Sans";
+      }
+      .bg-custom{
+      background-color:#130f40;
+      }
+      .button-fixed{
+      bottom: 0;
+      position: fixed;
+      right: 0;
+      border-radius: 4px;
+      }
+      .fas{
+      cursor: pointer;
+      font-size: 24px;
+      }
+      p{
+      font-size: 14px;
+      }
+    </style>	
+	
 <!-- start-smoth-scrolling -->
 
 </head>
@@ -199,5 +222,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 	</script>
 <!-- //here ends scrolling icon -->
+	<div class="row">
+      <div class="col-md-4 col-sm-12 button-fixed">
+        <div class="p-3 pb-4 bg-custom text-white">
+          <div class="row">
+            <div class="col-10">
+              <h2>Allow Cookies</h2>
+            </div>
+            <div class="col-2 text-center">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <p>We collect analytics cookies to analyze our website traffic and performance.
+          </p>
+          <button type="button" class="btn btn-danger w-100">Accept Cookies</button>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
