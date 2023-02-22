@@ -868,6 +868,7 @@ ul.footer-grid-list li span{
 .banner1{
 	background: url(../images/bannerArm.jpg) no-repeat 0px 0px;
     background-size: cover;
+    height: 350px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
